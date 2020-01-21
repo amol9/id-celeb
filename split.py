@@ -7,7 +7,7 @@ celeb_list = []
 with open("list.txt", "r") as f:
     celeb_list = f.read().splitlines()
 
-data_dir = ".\celebs-id"
+data_dir = "./celebs-id"
 if not exists(data_dir):
     mkdir(data_dir)
 
@@ -23,7 +23,7 @@ if not exists(test_dir):
 if not exists(train_dir):
     mkdir(train_dir)
 
-src_data_dir = ".\celebs-data"
+src_data_dir = "./celebs-data"
 
 for celeb in celeb_list:
     celeb_test_dir = join(test_dir, celeb)
