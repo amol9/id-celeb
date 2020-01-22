@@ -4,15 +4,16 @@ from shutil import copyfile
 
 
 celeb_list = []
-with open("list.txt", "r") as f:
+with open("list300.txt", "r") as f:
     celeb_list = f.read().splitlines()
 
 data_dir = "./celebs-id"
 if not exists(data_dir):
     mkdir(data_dir)
 
-test = 10
-train = 40
+size = 300
+test = int(0.2 * size)
+train = int(0.8 * size)
 
 test_dir = join(data_dir, "test")
 train_dir = join(data_dir, "train")
