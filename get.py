@@ -65,7 +65,7 @@ def get_celeb(name):
 
 def get_all():
     celeb_list = []
-    with open("list.txt", "r") as f:
+    with open("list300.txt", "r") as f:
         celeb_list = f.read().splitlines()
 
     for celeb in celeb_list:
