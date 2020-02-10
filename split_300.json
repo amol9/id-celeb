@@ -1,0 +1,7 @@
+{
+    "src_dir": ".\\celebs-data\\list300",
+    "dst_dir": ".\\celebs-id\\list300",
+    "test": 60,
+    "train": 0,
+    "list": ""
+}

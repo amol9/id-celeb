@@ -1,0 +1,5 @@
+{
+    "list": "list300.txt",
+    "model": "model_ex-039_acc-0.338542.h5",
+    "data_dir": ".\\celebs-id\\list300"
+}
